@@ -15,7 +15,6 @@ export const ProjectsContainer = styled.div`
   }
 
 `
-
 export const ProjectsBox = styled.ul`
   display: flex;
   flex-direction: column;
