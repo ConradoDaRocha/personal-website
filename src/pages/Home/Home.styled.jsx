@@ -15,7 +15,7 @@ export const ProfileContainer = styled.div`
 
   @media (max-width: 768px) {
     padding:20px;
-    margin-top: 30px;
+    margin-top: 80px;
   }
 `
 export const ProfilePicture = styled.img`
