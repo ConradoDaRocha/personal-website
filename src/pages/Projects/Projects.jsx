@@ -36,7 +36,7 @@ export default function Projects() {
                   <ProjectsAbout
                     to={repository.html_url}
                     target='blank' >
-                      Saiba mais
+                      Saiba mais+
                   </ProjectsAbout>
                 </ProjectsList>
               )

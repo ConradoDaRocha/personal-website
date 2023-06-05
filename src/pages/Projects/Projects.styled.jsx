@@ -9,7 +9,6 @@ export const ProjectsContainer = styled.div`
   align-items: center;
   justify-content: center;
   padding: 20px;
-
   @media (max-width: 768px) {
     padding:40px;
   }
@@ -22,10 +21,8 @@ export const ProjectsBox = styled.ul`
   padding: 20px;
   height: auto;
   width: 700px;
-
   @media screen and (max-width: 768px) {
     width:400px;
-    
   } 
 `
 export const Title = styled.h1`
@@ -45,6 +42,7 @@ export const ProjectsTitle = styled.h3`
 export const ProjectsAbout = styled(Link)`
   text-decoration: none;
   color: aqua;
+  font-size: 14px;
 
 `
 ;

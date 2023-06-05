@@ -14,12 +14,16 @@ export const ProfileContainer = styled.div`
   padding: 80px;
 
   @media (max-width: 768px) {
-    padding:40px;
+    padding:20px;
+    margin-top: 30px;
   }
 `
 export const ProfilePicture = styled.img`
   width: 100px;
   height: auto;
+  @media (max-width: 768px) {
+    width:70px;
+  }
 `
 export const Title = styled.h1`
   font-size: 16px;
