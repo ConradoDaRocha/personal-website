@@ -19,7 +19,7 @@ export const ProfileContainer = styled.div`
   }
 `
 export const ProfilePicture = styled.img`
-  width: 100px;
+  width: 80px;
   height: auto;
   @media (max-width: 768px) {
     width:70px;
