@@ -12,7 +12,6 @@ export const ProfileContainer = styled.div`
   align-items: center;
   justify-content: center;
   padding: 80px;
-
   @media (max-width: 768px) {
     padding:20px;
     margin-top: 80px;
@@ -29,7 +28,6 @@ export const Title = styled.h1`
   font-size: 16px;
   color:#0396ff;
   font-weight:500;
-
   @media (max-width: 768px) {
     font-size: 14px;
   }
