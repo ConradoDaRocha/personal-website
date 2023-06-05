@@ -21,15 +21,20 @@ export const ProfilePicture = styled.img`
   width: 80px;
   height: auto;
   @media (max-width: 768px) {
-    width:70px;
+    width:60px;
   }
 `
 export const Title = styled.h1`
   font-size: 16px;
+  color: #ffffff;
+  font-weight:500;
+`
+export const SubTitle = styled.h2`
+  font-size: 12px;
   color:#0396ff;
   font-weight:500;
   @media (max-width: 768px) {
-    font-size: 14px;
+    font-size: 12px;
   }
 `
 export const TextArea = styled.div`

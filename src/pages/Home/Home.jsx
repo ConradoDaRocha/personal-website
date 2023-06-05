@@ -4,6 +4,7 @@ import {
   ProfileContainer,
   ProfilePicture,
   Title,
+  SubTitle,
   TextArea,
   Button
 } from './Home.styled'
@@ -17,11 +18,12 @@ export default function Home() {
     <HomeContainer>
       <ProfileContainer>
         <ProfilePicture src={Profile} alt="profile picture" />
-        <Title>Desenvolvedor Front End</Title>
+        <Title>Conrado da Rocha</Title>
+        <SubTitle>Desenvolvedor Front End</SubTitle>
         <TextArea>
           Bem vindo!
-          Sou um desenvolvedor que busca plenamente a qualidade do design.<br/>
-          Me dedico a criaçao de interfaces atraentes e fáceis de usar.
+          Sou um Desenvolvedor que busca plenamente a qualidade do design.<br/>
+          Me dedico a criação de interfaces atraentes e fáceis de usar.
         </TextArea>
         <Link to='/Projects'>
           <Button>Projetos <FaGithub /></Button>
