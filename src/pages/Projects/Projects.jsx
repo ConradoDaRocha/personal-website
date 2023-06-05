@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react'
 import {
   HomeContainer,
-  ProfileContainer
 } from '../Home/Home.styled'
 import {
+  ProjectsBox,
   ProjectsContainer,
   ProjectsList,
   ProjectsTitle,
@@ -24,9 +24,9 @@ export default function Projects() {
 
   return (
       <HomeContainer>
-        <ProfileContainer>
+        <ProjectsContainer>
         <Title>Projetos / Repositórios</Title>
-          <ProjectsContainer>
+          <ProjectsBox>
             {repositories.map(repository => {
               return(
                 <ProjectsList key={repository.id}>
@@ -41,8 +41,8 @@ export default function Projects() {
                 </ProjectsList>
               )
             })}
+          </ProjectsBox>
           </ProjectsContainer>
-          </ProfileContainer>
        </HomeContainer>  
   )
 }

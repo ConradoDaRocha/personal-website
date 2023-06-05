@@ -1,7 +1,22 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 
-export const ProjectsContainer = styled.ul`
+export const ProjectsContainer = styled.div`
+  margin: 0 auto;
+  max-width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+
+  @media (max-width: 768px) {
+    padding:40px;
+  }
+
+`
+
+export const ProjectsBox = styled.ul`
   display: flex;
   flex-direction: column;
   gap: 20px;
