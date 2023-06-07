@@ -43,6 +43,5 @@ export const ProjectsAbout = styled(Link)`
   text-decoration: none;
   color: aqua;
   font-size: 14px;
-
 `
 ;

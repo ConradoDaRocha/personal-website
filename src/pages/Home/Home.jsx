@@ -26,7 +26,7 @@ export default function Home() {
           Me dedico a criação de interfaces atraentes e fáceis de usar.
         </TextArea>
         <Link to='/Projects'>
-          <Button>Projetos <FaGithub /></Button>
+          <Button>Projetos <FaGithub/></Button>
         </Link>
       </ProfileContainer>
     </HomeContainer>
