@@ -22,7 +22,7 @@ export const ProjectsBox = styled.ul`
   height: auto;
   width: 700px;
   @media screen and (max-width: 768px) {
-    width:400px;
+    width:350px;
   } 
 `
 export const Title = styled.h1`

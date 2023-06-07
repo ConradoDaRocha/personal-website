@@ -14,15 +14,14 @@ export default function Contact() {
       <ContactContainer>
         <SocialBox>
           <SocialList>
-            <SocialItem href="https://t.me/ConradoDaRocha">
+            <SocialItem to="https://t.me/ConradoDaRocha">
               Telegram <FaTelegramPlane/>
             </SocialItem>
           </SocialList>
           <SocialList>
-            <SocialItem href="https://instagram.com/conrado_darocha">
+            <SocialItem to="https://instagram.com/conrado_darocha">
               Instagram <FaInstagram/>
             </SocialItem>
-           
           </SocialList>
         </SocialBox>
       </ContactContainer>

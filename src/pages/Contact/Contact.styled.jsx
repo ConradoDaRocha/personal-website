@@ -24,18 +24,21 @@ export const SocialBox = styled.ul`
   } 
 `
 export const SocialList = styled.li`
-  background-color:#95959513;
   list-style: none;
-  padding: 10px;
-  border-radius: 8px;
-  background-image: linear-gradient(to left, #002beda9, #0396ffb0);
-
-  &:hover {
-    background-image: linear-gradient(to left,#0396ff, #002bed);
-    }
 `
 export const SocialItem = styled(Link)`
   text-decoration: none;
+  padding: 10px;
+  gap: 5px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: #ffffff;
   font-size: 18px;
+  background-image: linear-gradient(to left, #002beda9, #0396ffb0);
+  &:hover {
+    background-image: linear-gradient(to left,#0396ff, #002bed);
+    }
+
 `
