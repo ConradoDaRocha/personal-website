@@ -1,4 +1,7 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+import Profile from '../../assets/conrado.png'
+import { FaGithub } from 'react-icons/fa'
 import {
   HomeContainer,
   ProfileContainer,
@@ -8,9 +11,6 @@ import {
   TextArea,
   Button
 } from './Home.styled'
-import { Link } from 'react-router-dom'
-import Profile from '../../assets/conrado.png'
-import { FaGithub } from 'react-icons/fa'
 
 export default function Home() {
 

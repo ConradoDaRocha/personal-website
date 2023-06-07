@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import {
-  HomeContainer,
-} from '../Home/Home.styled'
+import { HomeContainer } from '../Home/Home.styled'
 import {
   ProjectsBox,
   ProjectsContainer,
@@ -10,7 +8,6 @@ import {
   ProjectsAbout,
   Title
 } from '../Projects/Projects.styled'
-
 
 export default function Projects() {
 

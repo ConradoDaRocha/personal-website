@@ -1,11 +1,11 @@
 import React from 'react'
+import Logo from '../../assets/brand.png'
 import {
   NavbarContainer,
   NavLinkContainer,
   NavLink,
   LogoContainer
 } from './Navbar.styled'
-import Logo from '../../assets/brand.png'
 
 export default function Navbar() {
   return (
