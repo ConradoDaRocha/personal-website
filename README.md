@@ -1,6 +1,6 @@
 ## Meu Portfólio
 
-Projeto construído com a intenção de colocar minhas habilidades em prática, habilidades que aprendi durante
+Projeto construído com a intenção de colocar em pratica habilidades que aprendi durante
 minha jornada de estudos.
 
 
