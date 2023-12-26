@@ -7,4 +7,4 @@ minha jornada de estudos.
 
 *Em construção* 🚧
 
-[Acessar Portifólio](https://conradodeveloper.netlify.app/)
+[Acessar Portfólio](https://conradodeveloper.netlify.app/)
